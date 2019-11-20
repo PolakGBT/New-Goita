@@ -1,0 +1,48 @@
+a{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    margin: 0;
+}
+h1{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Inconsolata&display=swap');
+@font-face {
+    font-family: 'Didot';
+    src: url('./Didot-HTF-M42-Medium.ttf');
+    }
+@font-face {
+    font-family: 'JaapokkienchanceRegular';
+    src: url('./Jaapokki-Regular.otf');
+}
+
+.header{
+    position: sticky;
+    height: 130px;
+    width: 100%;
+    z-index:100;
+    top:0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    height:100%;
+    display:flex;
+    justify-Content:center;
+    align-items:center;
+    margin: auto;
+}
+.menu a{
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+
+
